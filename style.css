@@ -1,8 +1,31 @@
-@font-face {
-    font-family: "Computer Modern";
-    src: 'fonts/Concrete/cmunoti.woff';
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1.2em;
+    text-indent: -1.2em;
 }
 
-/* body {
-    font-family: "Computer Modern";
-} */
+li:before {
+    content: "►";
+    display: block;
+    float: left;
+    width: 1.2em;
+    color: #f67280;
+}
+
+a,h1 {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  transition-timing-function: ease
+}
+
+a:hover {
+    color: #f67280;
+}
+
+h1:hover {
+    color: #f67280;
+}
