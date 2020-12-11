@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
 
 body {
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Eczar', serif;
 }
 
 body {
@@ -19,7 +19,7 @@ h3 {
   line-height: 1.2;
 }
 
-a:hover, h1:hover {
+a:hover, h1:hover, h2:hover, h3:hover {
   color: #f67280;
   transition: 0.3s;
 }
