@@ -1,16 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
-
-body {
-  font-family: 'Eczar', serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,400&display=swap');
 
 body {
   margin: 40px auto;
   max-width: 650px;
   line-height: 1.6;
+  font-family: 'Playfair Display', serif;
   font-size: 18px;
   color: #444;
   padding: 0 10px;
+}
+
+::selection {
+  background-color: #f8efd4;
+}
+
+h1 {
+  font-size: 36pt;
+}
+
+h1, h2 {
+  font-family: 'Goudy Bookletter 1911', serif;
+}
+
+a {
+  color: inherit;
+}
+
+h1, h2, a {
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+h1:hover, h2:hover {
+  color: #edc988
+}
+
+a:hover {
+  background-color: #f8efd4;
 }
 
 h1,
@@ -19,23 +45,12 @@ h3 {
   line-height: 1.2;
 }
 
-a:hover, h1:hover, h2:hover, h3:hover {
-  color: #f67280;
-  transition: 0.3s;
+ul {
+  list-style-type: "▧";
+  /* list-style-type: "❑"; */
 }
 
-mark {
-  background: #e53935;
-  color: #fafafa;
-}
-
-.profile {
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+li {
+  padding-left: 1em;
+  padding-top: 0.5em;
 }
